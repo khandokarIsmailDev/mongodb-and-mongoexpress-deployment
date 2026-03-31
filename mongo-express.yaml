@@ -36,3 +36,20 @@ spec:
               name: mongodb-secret  
               key: mongo-root-password
 
+---
+# Service file below here
+# now create a service for mongodb : we can create both deployment and service in one file; just separetor which is "---"
+apiVersion: v1
+kind: Service 
+metadata:
+  name: mongo-express-service
+spec:
+  selector:
+    app: mongo-express
+  type: LoadBalancer 
+  ports:
+  - protocol: TCP 
+    port: 8081  
+    targetPort: 8081
+    nodePort: 30000 # nodePort is a port that is exposed on each node in the cluster
+ 
