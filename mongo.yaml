@@ -29,7 +29,7 @@ spec:
           valueFrom:
             secretKeyRef:
               name: mongodb-secret 
-              key: mongo-root--password 
+              key: mongo-root-password 
 
 
 ---
