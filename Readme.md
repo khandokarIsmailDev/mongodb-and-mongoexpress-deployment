@@ -1,3 +1,27 @@
+<!-- ===============================
+      Badges Section
+=============================== -->
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+---
+
+<!-- ===============================
+      Description
+=============================== -->
+## Description
+This is a full-stack project using **MongoDB, Express.js, Node.js**, deployed with **Kubernetes** and **Docker**. The app demonstrates containerized deployment, database integration, and scalable microservice architecture.
+
+---
+
+<!-- ===============================
+      Recommended GitHub Topics
+=============================== -->
+**Topics to add in GitHub About section:**  
+
 # 🚀 Kubernetes: MongoDB + Mongo Express সেটআপ গাইড
 
 **তারিখ:** ২০২৫  
